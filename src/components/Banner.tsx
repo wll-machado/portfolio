@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap"
-import {ArrowRightCircle} from 'react-bootstrap-icons'
 import headerImg from '../assets/img/header-img.svg'
 
 import { useState, useEffect } from "react"
@@ -53,7 +52,7 @@ function Banner() {
                  </span>
                  <h1>{`Olá, eu sou o Wellington `} <br /> <span className="noWrap">{text}</span> </h1>
                  <p className="banner-p">Sou um desenvolvedor front-end com experiência em React, Next.js, TypeScript e JavaScript. Estou sempre em busca de novos desafios e oportunidades de crescimento profissional.</p>
-                 <button onClick={() => console.log('connect')}>Connect <ArrowRightCircle size={25} /></button>
+                 
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                     <img src={headerImg} alt="Header Img" />

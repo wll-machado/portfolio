@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon2 from '../assets/img/nav-icon2.png';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 
 import { useState, useEffect } from 'react';
@@ -45,11 +45,11 @@ function NavBar() {
           </Nav>
           <span className="navbar-text">
             <div className='social-icon'>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/wellington-m-l/" target='_blank' rel='noopener'>
                     <img src={navIcon1} alt="icone" />
                 </a>
 
-                <a href="#">
+                <a href="https://github.com/wll-machado" target='_blank' rel='noopener'>
                     <img src={navIcon2} alt="icone" />
                 </a>
 
