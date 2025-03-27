@@ -7,10 +7,10 @@ import img3 from '../assets/img/frontend3.png';
 import img4 from '../assets/img/frontend4.png';
 import img5 from '../assets/img/frontend5.png';
 import img6 from '../assets/img/frontend6.png';
-// import img7 from '../assets/img/frontend7.png';
-// import img8 from '../assets/img/frontend8.png';
-// import img9 from '../assets/img/frontend9.png';
-
+import img7 from '../assets/img/frontend7.png';
+import img8 from '../assets/img/frontend8.png';
+import img9 from '../assets/img/frontend9.png';
+import img10 from '../assets/img/frontend10.svg';
 
 function Images() {
   return (
@@ -39,6 +39,22 @@ function Images() {
         <Col xs={6} md={4} lg={2} className='mb-4 d-flex flex-column align-items-center'>
             <img className='img' src={img6} alt="Minha Figura"/>
             <span>TAILWIND CSS</span>
+        </Col>
+        <Col xs={6} md={4} lg={2} className='mb-4 d-flex flex-column align-items-center'>
+            <img className='img' src={img7} alt="Minha Figura"/>
+            <span>ANGULAR</span>
+        </Col>
+        <Col xs={6} md={4} lg={2} className='mb-4 d-flex flex-column align-items-center'>
+            <img className='img' src={img8} alt="Minha Figura"/>
+            <span>REACT</span>
+        </Col>
+        <Col xs={6} md={4} lg={2} className='mb-4 d-flex flex-column align-items-center'>
+            <img className='img' src={img9} alt="Minha Figura"/>
+            <span>NEXT.JS</span>
+        </Col>
+        <Col xs={6} md={4} lg={2} className='mb-4 d-flex flex-column align-items-center'>
+            <img className='img' src={img10} alt="Minha Figura"/>
+            <span>GIT</span>
         </Col>
       </Row>
     </Container>

@@ -7,7 +7,7 @@ import { useState, useEffect } from "react"
 function Banner() {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer", "Web Designer", "Front-end Developer"];
+    const toRotate = ["Dev Front-end","Web Developer", "Web Designer" ];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -46,7 +46,7 @@ function Banner() {
     <section className="banner" id="home">
         <Container>
             <Row>
-                <Col xs={12} md={6} xl={7}>
+                <Col className="banner-text" xs={12} md={6} xl={7}>
                  <span className="tagline">
                     Bem-vindo ao meu Portfolio
                  </span>

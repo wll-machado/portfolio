@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.png';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+
 
 import { useState, useEffect } from 'react';
 
@@ -52,12 +52,9 @@ function NavBar() {
                 <a href="https://github.com/wll-machado" target='_blank' rel='noopener'>
                     <img src={navIcon2} alt="icone" />
                 </a>
-
-                <a href="#">
-                    <img src={navIcon3} alt="icone" />
-                </a>
+                
             </div>
-            <button className='vvd' onClick={()=> console.log('connect')}>Lets Connect</button>
+            
           </span>
         </Navbar.Collapse>
       </Container>
