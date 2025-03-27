@@ -7,9 +7,9 @@ import img3 from '../assets/img/frontend3.png';
 import img4 from '../assets/img/frontend4.png';
 import img5 from '../assets/img/frontend5.png';
 import img6 from '../assets/img/frontend6.png';
-import img7 from '../assets/img/frontend7.png';
-import img8 from '../assets/img/frontend8.png';
-import img9 from '../assets/img/frontend9.png';
+// import img7 from '../assets/img/frontend7.png';
+// import img8 from '../assets/img/frontend8.png';
+// import img9 from '../assets/img/frontend9.png';
 
 
 function Images() {
